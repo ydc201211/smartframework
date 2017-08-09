@@ -13,7 +13,7 @@ public final class BeanHelper {
      * 2. 获取bean示例
      */
 
-    /** key : class value:对应的实例 也就是只能存在单例么?*/
+    /** key : class value:对应的实例 也就是只能存在单例么? */
     private static final Map<Class<?>,Object> BEAN_MAP = new HashMap<>();
 
     static {
